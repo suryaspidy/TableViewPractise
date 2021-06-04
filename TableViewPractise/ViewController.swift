@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITableViewDelegate {
     
     
     var contentElements = [Objects]()
-    var dataSource: TableDataSource!
+    var dataSource: TableDataSourceAndDelegate!
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UINib(nibName: "CloneTableViewCell", bundle: nil), forCellReuseIdentifier: "cellIdentifier")
@@ -37,7 +37,7 @@ class ViewController: UIViewController, UITableViewDelegate {
         
         
 
-        dataSource = TableDataSource(items: contentElements, cellIdentifier: "cellIdentifier")
+        dataSource = TableDataSourceAndDelegate(items: contentElements, cellIdentifier: "cellIdentifier")
         
         tableView.dataSource = dataSource
         tableView.delegate = dataSource

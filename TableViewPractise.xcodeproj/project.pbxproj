@@ -18,7 +18,7 @@
 		2D6A9ED3264C74EC00C013B4 /* TableViewPractiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6A9ED2264C74EC00C013B4 /* TableViewPractiseUITests.swift */; };
 		2D6A9EEA264C844200C013B4 /* CloneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6A9EE8264C844200C013B4 /* CloneTableViewCell.swift */; };
 		2D6A9EEB264C844200C013B4 /* CloneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D6A9EE9264C844200C013B4 /* CloneTableViewCell.xib */; };
-		2D88DE9D2669EEB10055C4CD /* TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D88DE9C2669EEB10055C4CD /* TableDataSource.swift */; };
+		2D88DE9D2669EEB10055C4CD /* TableDataSourceAndDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D88DE9C2669EEB10055C4CD /* TableDataSourceAndDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		2D6A9ED4264C74EC00C013B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D6A9EE8264C844200C013B4 /* CloneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneTableViewCell.swift; sourceTree = "<group>"; };
 		2D6A9EE9264C844200C013B4 /* CloneTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CloneTableViewCell.xib; sourceTree = "<group>"; };
-		2D88DE9C2669EEB10055C4CD /* TableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataSource.swift; sourceTree = "<group>"; };
+		2D88DE9C2669EEB10055C4CD /* TableDataSourceAndDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataSourceAndDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 				2D6A9EB6264C74E900C013B4 /* TableViewPractise.xcdatamodeld */,
 				2D6A9EE8264C844200C013B4 /* CloneTableViewCell.swift */,
 				2D6A9EE9264C844200C013B4 /* CloneTableViewCell.xib */,
-				2D88DE9C2669EEB10055C4CD /* TableDataSource.swift */,
+				2D88DE9C2669EEB10055C4CD /* TableDataSourceAndDelegate.swift */,
 			);
 			path = TableViewPractise;
 			sourceTree = "<group>";
@@ -271,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D88DE9D2669EEB10055C4CD /* TableDataSource.swift in Sources */,
+				2D88DE9D2669EEB10055C4CD /* TableDataSourceAndDelegate.swift in Sources */,
 				2D6A9EB8264C74E900C013B4 /* TableViewPractise.xcdatamodeld in Sources */,
 				2D6A9EB2264C74E900C013B4 /* ViewController.swift in Sources */,
 				2D6A9EAE264C74E900C013B4 /* AppDelegate.swift in Sources */,
